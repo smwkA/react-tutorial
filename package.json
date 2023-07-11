@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "hello": "ts-node src/hello.ts",
+    "build": "rm -rf dist && mkdir dist && tsc && cp src/index.html dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
