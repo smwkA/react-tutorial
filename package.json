@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf dist && mkdir dist && tsc && cp src/index.html dist",
+    "build": "rm -rf dist && webpack && cp static/* dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
