@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
+    "serve": "webpack serve",
     "build": "rm -rf dist && webpack && cp static/* dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
